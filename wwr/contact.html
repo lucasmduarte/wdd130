@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+ <html lang="en-us">
+ 
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Whiter Walter Rafting</title>
+    <meta name="author" content="Lucas Marques">
+    <link rel="stylesheet" href="styles/contact.css">
+ </head>
+
+ <body>
+    <header>
+        <!--Header content here-->
+        <h1>White Walter Rafting - Contact </h1>
+        <nav>
+            <!--Navigation links here-->
+            <ul>
+                <li><a href="about.html">Home</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="site-plan-rafting.html">Site Plan</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="company-info">
+            <h2>Company Information</h2>
+            <p>Adress:123 River Rafting Road, Rapidsville, RA 54321</p>
+            <p>Phone: 127-388-2324</p>
+            <p>Email: info@whitewalterrafting.com</p>
+            <div id="map">
+                <!--Embedded Google Map-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18693.1069013339!2d-122.08543703544651!3d37.42240813086755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580b45b3f9c39%3A0x1b7d39a45aaa183a!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1644543727421!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="employee-profiles">
+
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/chiefs/nnvoktjaxjtcxt7zsyri" alt="Employee1">
+                <p>Patrick Mahomes - Rafting Guide</p>
+            </div>
+            <div class="employee">
+                <img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/chiefs/shcz08ej2eowvjhhwakj" alt="employee2">
+                <p>Travis Kelce - Safety Instructor</p>
+            </div>
+            <div class="employee">
+                <img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/v1623959459/chiefs/khzpdwroubzinsqt38fx" alt="emplyee2">
+                <p>Andy Reid - Equipment Manager</p>
+            </div>
+            <label for="inquiry">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label><br>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="purpose">Purpose of Message:</label><br>
+                <input type="radio" id="inquiry" name="purpose" value="General Inquiry" required>
+                <label for="inquiry">General Inquiry</label><br>
+                <input type="radio" id="reservation_question" name="purpose" value="Reservation Question">
+                <label for="reservation_question">Reservation Question</label><br>
+                <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion">
+                <label for="website_suggestion">Website Suggestion</label><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                
+                <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+                
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+        <p>©️ 2024 ⛹️‍♂️ Lucas Marques ⛹️‍♂️ Recife, Brazil</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-64.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-64.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-64.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
+
+
+ 
