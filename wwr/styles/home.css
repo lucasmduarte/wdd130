@@ -1,0 +1,146 @@
+/* Resetando formatações padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte padrão e link sem decoração */
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Estilizando links */
+a:link,
+a:visited {
+  color: white;
+  padding: 8px 12px;
+}
+
+/* Layout da navegação */
+#navigationbar {
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+#logo,
+#menu {
+  padding: 10px;
+}
+
+/* Estilo geral */
+h1 {
+  color: white;
+  font-size: 2.5em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.sociallinks {
+  margin-top: 10px;
+}
+
+.sociallinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.sociallinks img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+main {
+  position: relative;
+}
+
+/* Estilo do herói */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 80%;
+}
+
+.hero-content h1,
+.hero-content article {
+  width: 100%;
+}
+
+.hero-content article {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-content article img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Estilo das seções */
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+section .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 10px;
+}
+
+section .gallery img {
+  border-radius: 10px;
+}

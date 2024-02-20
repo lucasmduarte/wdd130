@@ -64,12 +64,35 @@ section {
     margin-bottom: 10px;
 }
 
+/* Footer Styles */
 footer {
     background-color: black;
-    color: #fff;
+    color: white;
+    padding: 3px 0;
     text-align: center;
-    padding: 10px 0;
-}
+  }
+  
+  footer p {
+    margin: 100;
+  }
+  
+  .sociallinks {
+    margin-top: 10px;
+  }
+  
+  .sociallinks a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .sociallinks img {
+    width: 30px;
+    margin: 0 10px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
 
 /* Contact Form Styles */
 #contact-form label {
